@@ -1,3 +1,4 @@
+<!-- Имортируем макрос и вставляем в код -->
 <#import "parts/common.ftl" as c>
 <#import "parts/login.ftl" as l>
 
@@ -5,6 +6,7 @@
     <!-- Кнопка logout -->
     <div>
         <@l.logout />
+        <span><a href="/user">User list</a></span>
     </div>
 
     <!--Форма добавления сообщений-->
@@ -37,6 +39,6 @@
             <strong>${message.authorName}</strong>
         </div>
     <#else>
-No message
-</#list>
+        No message
+    </#list>
 </@c.page>
