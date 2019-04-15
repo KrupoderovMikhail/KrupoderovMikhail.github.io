@@ -16,7 +16,6 @@
                   crossorigin="anonymous">
     </head>
         <body>
-
         <!-- Помещаем navbar в шаблон -->
         <#include "navbar.ftl">
 
