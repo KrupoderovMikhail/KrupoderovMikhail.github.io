@@ -6,6 +6,7 @@
 
     <groupId>ru.krupoderov.springapp.chatter</groupId>
     <artifactId>chatterApp</artifactId>
+    <packaging>war</packaging>
     <version>1.0-SNAPSHOT</version>
 
     <parent>
